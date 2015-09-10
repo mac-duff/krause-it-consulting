@@ -62,29 +62,35 @@ header{
     background:#555;
     display: block;
     padding: 10px;
+    background-image: url(/img/headerbg.png);
+    background-size: 100%;
 }
 header img{
     float: right;
-    height: 68px;
+    height: 82px;
     margin-left: 15px;
-    opacity: .2;
+    opacity: .3;
 }
 header h1{
     line-height: 30px;
     color: #ffffff;
+    background-color: rgba(70, 67, 58, 0.45);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px;
 }
 header a{
-  display: inline-block;
-  color: #aaa;
-  background: #666;
-  width: auto;
-  padding: 3px 13px;
-  margin: 2px 6px 0px 0px;
-  text-decoration: none;
-  font: bold 14px arial, sans-serif;
-  height: 17px;
-  position: relative;
-  top: 5px;
+    display: inline-block;
+    color: rgb(195, 195, 195);
+    background: rgba(64, 63, 63, 0.58);
+    width: auto;
+    padding: 3px 13px;
+    margin: 2px 6px 0px 0px;
+    text-decoration: none;
+    font: bold 14px arial, sans-serif;
+    height: 17px;
+    position: relative;
+    top: 5px;
 }
 header a:hover{
     color: #000;
@@ -322,7 +328,12 @@ footer{
 
 @media only screen and (max-width: 768px) {
 /* Styles placed here will only apply to screens less than 768 pixels wide */
-
+header img{
+    height: 58px;
+}
+header{
+	background-size: 100% 100%;	
+}
 }
 
 @media only screen and (max-width: 480px) {
