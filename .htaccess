@@ -1,0 +1,13 @@
+ErrorDocument 404 /404/404.php 
+Header set X-UA-Compatible "IE=edge"
+Options -Indexes
+Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+RewriteEngine On
+  
+  RewriteCond %{HTTP_HOST} ^krause-it-consulting\.com$ [NC]
+
+  RewriteRule ^(de)/$ /index-de.php [NC,QSA,L]
+  RewriteRule ^(de)/(projekte|rating-widget)/$ /index-de.php?content=$1_$2 [NC,QSA,L]
+  RewriteRule ^(en)/(projects|rating-widget)/$ /index.php?content=$1_$2 [NC,QSA,L]
+</IfModule>

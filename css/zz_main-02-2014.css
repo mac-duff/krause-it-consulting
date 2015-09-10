@@ -1,0 +1,67 @@
+html { height:100%; width:100%;}
+body { height:100%; width:100%; background-color:#bbb;}
+img{ border-width:0px; }
+h1{color:#31943a; font: bold 32px arial,sans-serif;}
+h2{color:#31943a; font: font: bold 20px arial,sans-serif; line-height: 6px;}
+
+header{
+    color:white; 
+    background:#555;
+    height:55px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+header img{
+    float: right; height: 55px;
+}
+header h1{
+    line-height: 0px;
+    color: #ffffff;
+}
+header a{
+    display: block;
+    color: #aaa;
+    background: #666;
+    width: auto;
+    padding: 3px 13px;
+    float: left;
+    text-decoration: none;
+    font: bold 12px arial, sans-serif;
+}
+header a:hover{
+    color: #000;
+    background:#888;
+}
+
+footer{
+    color:white; 
+    background:#555;
+    height:30px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+footer h2{ 
+    color: #ffffff;line-height: 0px;
+}
+
+.bodyDiv{
+    padding:10px;
+    width: 978px;
+    margin-left:auto;
+    margin-right:auto;
+    font: 13px arial,sans-serif;
+    background:#fff;
+    border-left: 2px solid #555;
+}
+.logo{
+	float: left; 
+	height: 105px; 
+	margin: 40px; 
+	margin-left: 2px; 
+	margin-top: 2px;
+}
+    
