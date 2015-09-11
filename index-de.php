@@ -85,19 +85,19 @@ if(!$content){
 	
 ELSE:?>
             <div class="content_header projects">
-             <h1>Was wir tun:</h1>
-             <p>Mit mehr als 10 Jahren Erfahrung mit Lotus Notes in allen Bereichen (Entwicklung, KPlanung und Instandhalting von Umgebungen mit 10000+ Benutzern und Support), ertellen wir herausragende, performante, individuell auf den Kunden abgestimmte Loesungen . Mit unserem ueber ein Jahrzehnt angereichertem Wissen reizen wir die Lotus Domino Plattform bis an ihre Grenzen aus.</p>
+             <h2 style="margin:0px;">Was wir tun:</h2>
+             <p>Mit mehr als 10 Jahren Erfahrung mit Lotus Notes in allen Bereichen (Entwicklung, Planung und Instandhaltung von Umgebungen mit bis zu 10000+ Benutzern und Support), ertellen wir herausragende, performante, individuell auf den Kunden abgestimmte L&ouml;sungen. Mit unserem &uuml;ber ein Jahrzehnt angereichertem Wissen reizen wir die Lotus Domino Plattform bis an ihre Grenzen aus.</p>
              <p><span style="font-weight: bold; color: rgb(17, 100, 24);">Das Wort "Unm&ouml;glich" ist uns nicht bekannt.</span></p>
             </div>
             <div class="services">
             	<div><i><img id="image-1" src="/img/check.png" alt="checked"/></i>Lotus Notes Applikation (Lotus Script, Lotus Formula, Xpages)</div>
             	<div><i><img id="image-2" src="/img/check.png" alt="checked"/></i>Entwicklung von Web Applikationen (PHP, HTML, CSS, JavaScript, MySQL)</div>
             	<div><i><img id="image-3" src="/img/check.png" alt="checked"/></i>Bevorzugtes Framework f&uuml;r web-basierende Applikationen: <a href="http://laravel.com/" title="Laravel - The PHP framework for web artisans.">Laravel 4</a> </div>
-            	<div><i><img id="image-4" src="/img/check.png" alt="checked"/></i>Erg&auml;nzungen und Verbesserungen mit <a href="http://jquery.com/" title="The Write Less, Do More, JavaScript Library">jQuery</a>, <a href="http://www.dropzonejs.com/" title="DropzoneJS is an open source library that provides beautiful and easy to use drag'n'drop file uploads with image previews.">Dropzone</a> und anderen JavaScript Plugins. Wenn's kein Plugin f&uuml;r Ihre Idee gibt, machen wir eins.</div>
-            	<div><i><img id="image-5" src="/img/check.png" alt="checked"/></i>&Auml;nderungen und Fehlerbehebung bei existierenden Applikationen, ob basierend auf einem Framework, CMS oder auch nicht.</div>
-            	<div><i><img id="image-6" src="/img/check.png" alt="checked"/></i>Hinzufuegen der heute so wichtigen sogenannten "Responsive CSS3 Designs" f&uuml;r Telefone und Tablets auf bereits existierende Webseiten, ohne das bestehende Design zu &auml;ndern</div>
+            	<div><i><img id="image-4" src="/img/check.png" alt="checked"/></i>Erg&auml;nzungen und Verbesserungen mit <a href="http://jquery.com/" title="The Write Less, Do More, JavaScript Library">jQuery</a>, <a href="http://www.dropzonejs.com/" title="DropzoneJS is an open source library that provides beautiful and easy to use drag'n'drop file uploads with image previews.">Dropzone</a> und anderen JavaScript Plugins. Wenn's kein Plugin f&uuml;r Ihre Idee gibt, machen wir eins</div>
+            	<div><i><img id="image-5" src="/img/check.png" alt="checked"/></i>&Auml;nderungen und Fehlerbehebung bei existierenden Applikationen, ob basierend auf einem Framework, CMS oder einen anderen Technologie</div>
+            	<div><i><img id="image-6" src="/img/check.png" alt="checked"/></i>Hinzuf&uuml;gen des heute so wichtigen "Responsive CSS3 Designs" f&uuml;r Telefone und Tablets auf bereits existierende Webseiten, ohne das bestehende Design zu &auml;ndern</div>
             </div>
-            <br/><a href="mailto:info@krause-it-consulting.com">Schreiben Sie uns</a> f&uuml;r Preisanfragen.
+            <br/><a href="mailto:info@krause-it-consulting.com">Schreiben Sie uns</a> f&uuml;r Preisanfragen
             <hr />
             <img class="logo" src="/img/logo-kitc-1.png" alt="Logo of Krause IT Consulting"/>
             <div class="content_header">
@@ -105,7 +105,7 @@ ELSE:?>
              <br/>Im Reipert 2
              <br/>D-54316 Lampaden
              <br/>Germany
-             <br/>+49 157 56713883 / +34 600 058654
+             <br/>+49 157 56713883 / +34 600 058 654
              <br/><a href="mailto:info@krause-it-consulting.com">info@krause-it-consulting.com</a>
              <br/><a href="http://krause-it-consulting.com">http://krause-it-consulting.com</a>
             </div>

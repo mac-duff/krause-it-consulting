@@ -51,7 +51,7 @@ p{
 }
 
 html { height:100%; width:100%;}
-body { height:100%; width:100%; background-color:rgba(255, 233, 74, 0.18);;}
+body { height:100%; width:100%; background-color:rgba(17, 100, 24, 0.61);}
 img{ border-width:0px; }
 h1{color:#31943a; font: bold 32px arial,sans-serif; margin: 5px 0;}
 h2{color:#31943a; font: bold 26px arial,sans-serif; margin: 15px 0;}
@@ -64,6 +64,10 @@ header{
     padding: 10px;
     background-image: url(/img/headerbg.png);
     background-size: 100%;
+    background-position: center;
+	border: 0px solid #6DA071;
+    border-bottom-width: 8px;
+    border-radius: 12px 12px 0 0;
 }
 header img{
     float: right;
@@ -73,16 +77,17 @@ header img{
 }
 header h1{
     line-height: 30px;
-    color: #ffffff;
-    background-color: rgba(70, 67, 58, 0.45);
+    color: #116418;
+    background-color: rgba(255, 255, 255, 0.58);
     display: inline-block;
     padding: 8px;
     border-radius: 10px;
+    font-size: 40px;
 }
 header a{
     display: inline-block;
-    color: rgb(195, 195, 195);
-    background: rgba(64, 63, 63, 0.58);
+    color: white;
+    background: rgb(64, 121, 69);
     width: auto;
     padding: 3px 13px;
     margin: 2px 6px 0px 0px;
@@ -90,17 +95,19 @@ header a{
     font: bold 14px arial, sans-serif;
     height: 17px;
     position: relative;
-    top: 5px;
+    top: 16px;
+    border-radius: 5px 5px 0 0;
 }
 header a:hover{
     color: #000;
     background:#888;
+    
 }
 header a.active{
 	color:#222;
 	background: #ffffff;
 	position: relative;	
-	top: 10px;
+	top: 18px;
 }
 
 footer{
@@ -136,7 +143,6 @@ footer a:hover{
     padding: 15px;
     font: 16px arial,sans-serif;
     background:#fff;
-    border-left: 2px solid #555;
 }
 .logo{
 	float: left; 
@@ -219,7 +225,7 @@ hr{
   margin: 10px 0px;
   border: 1px solid rgb(151, 213, 157);
   padding: 10px;
-  background: rgb(194, 237, 198);
+  background: rgb(242, 251, 243);
   border-radius: 10px;
 }
 .projects h1,.projects h2{
@@ -264,6 +270,7 @@ hr{
   display: block;
   font: 12px arial,sans-serif;
   text-decoration: none;
+  margin-right: 20px;
   text-align: right;
 }
 .language_switcher a{
@@ -275,8 +282,8 @@ hr{
 }
 .language_switcher span{
   display: inline-block;
-  background: #555;
-  margin: 2px 0px 0px 5px;
+  background: #2E2F29;
+  margin: 2px 0 0px 5px;
   padding: 5px;
   color: #FFF;
   border-radius: 5px 5px 0 0;
@@ -333,6 +340,9 @@ header img{
 }
 header{
 	background-size: 100% 100%;	
+}
+header h1{
+	font-size:32px;
 }
 }
 
